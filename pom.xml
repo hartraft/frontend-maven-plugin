@@ -30,9 +30,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/eirslett/frontend-maven-plugin</url>
-        <connection>scm:git:https://github.com/eirslett/frontend-maven-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:eirslett/frontend-maven-plugin.git</developerConnection>
+        <url>https://github.com/hartraft/frontend-maven-plugin</url>
+        <connection>scm:git:https://github.com/hartraft/frontend-maven-plugin.git</connection>
+        <developerConnection>scm:git:https://github.com/hartraft/frontend-maven-plugin.git</developerConnection>
       <tag>HEAD</tag>
   </scm>
 
@@ -51,12 +51,14 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+	    <id>github</id>
+	    <name>GitHub Apache Maven Packages</name>
+	    <url>https://maven.pkg.github.com/hartraft/frontend-maven-plugin</url>
         </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+	    <id>github</id>
+	    <name>GitHub Apache Maven Packages</name>
+	    <url>https://maven.pkg.github.com/hartraft/frontend-maven-plugin</url>
         </repository>
     </distributionManagement>
 
